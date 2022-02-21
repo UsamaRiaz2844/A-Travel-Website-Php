@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ 
+    
+
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px;
+}
+p{
+    margin: 5px;
+}
+img{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+   
+}
+.container{
+   display: block;
+   width: 900px;
+    margin: auto;
+    padding: 10px;
+    }
+label{
+    
+    font-size: larger;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+
+    
+    
+
+
+}
+
+input, textarea, button{
+    width: 80%;
+    border: 2px solid blue;
+    border-radius: 15px;
+    padding: 3px;
+    font-size: large;
+   
+}
+
+input{
+    height: 30px;
+    margin-top: 10px;
+    color: black;
+}
+
+button{
+    width: 110px;
+    height: 30px;
+    margin-top: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.alert{
+    color: rgb(28, 114, 28);
+    font-size: large;
+}
+/* For Mobile */
+@media screen and (max-width: 540px) {
+    .container{
+        display: block;
+        width: 300px;
+         margin: auto;
+         padding: 5px;
+         }
+       p{
+           width: auto;
+       }
+        
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    .container{
+        display: block;
+        width: 400px;
+         margin: auto;
+         padding: 5px;
+         }
+}
